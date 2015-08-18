@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150818201057) do
   create_table "produtos", force: :cascade do |t|
     t.string   "nome"
     t.integer  "price"
+    t.integer  "quantidade"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

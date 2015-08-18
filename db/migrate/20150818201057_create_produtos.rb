@@ -3,6 +3,7 @@ class CreateProdutos < ActiveRecord::Migration
     create_table :produtos do |t|
       t.string :nome
       t.integer :price
+      t.integer :quantidade
 
       t.timestamps null: false
     end
